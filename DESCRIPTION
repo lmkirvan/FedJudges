@@ -4,7 +4,7 @@ Title: A dataset of federal judge biographies
 Version: 0.1.0
 Authors@R: person("Lewis", "Kirvan", email = "kirvan.lewis@gmail.com", role =c('aut', 'cre'))
 Description: 
-The data set consists of a row for each judge/court combination along with certain key dates (dates of termination, dates for entering senior status). 
+  The data set consists of a row for each judge/court combination along with certain key dates (dates of termination, dates for entering senior status). 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

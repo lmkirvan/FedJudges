@@ -255,4 +255,5 @@ df |>
   mutate(across(ends_with("_date"), lubridate::mdy)) |>
   mutate(action = stringr::str_trim(action)) -> fed_judges
 
-usethis::use_data(fed_judges, overwrite = TRUE)
+usethis::use_data(fed_judges, overwrite = TRUE, compress = "gzip")
+
